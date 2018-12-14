@@ -10,8 +10,8 @@ var transporter = nodemailer.createTransport(process.env.SMTP);
 // var setSMTP = {
 //  service: 'gmail',
 //  auth: {
-//         user: 'smartdata.nav@gmail.com',
-//         pass: 'rssb@123#'
+//         user: 'smartdata.nav@gmail.com', //smartdata.nav@gmail.com
+//         pass: 'rssb@123#' //rssb@123#
 //     }
 // }
 //var transporter = nodemailer.createTransport(setSMTP);

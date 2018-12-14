@@ -15,8 +15,6 @@ module.exports =  {
         }
         else
         {
-            console.log('------------',text);
-
             if(typeof(text) == 'object')
             {
                 console.log('**********', typeof(text));
@@ -37,7 +35,6 @@ module.exports =  {
             }
             else
             {
-                //console.log('dcrypt-----', cryptr.decrypt(text));
                 try {
                    return cryptr.decrypt(text)
                 }
